@@ -1,0 +1,228 @@
+/* reset css */
+body{
+    background-color: rgb(211, 188, 188);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+/*
+1. Tu ngoai vao trong
+2. Tu tren xuong duoi
+3. Tu tong quan den chi tiet
+*/
+/* COMMON */
+.clear{
+    clear: both;
+}
+.text-white{
+    color: white !important;
+}
+.text-center{
+    text-align: center !important;
+}
+.mt-8{
+    margin-top: 8px !important;
+}
+.mt-16{
+    margin-top: 16px !important;
+}
+.pull-right{
+    float: right;
+}
+.btn{
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    display: inline-block;
+    min-width: 100px;
+    text-align: center;
+    border: none;
+    appearance: none;
+    -webkit-appearance: none;
+}
+.btn:hover{
+    color: red;
+    background-color: white;
+    cursor: pointer;
+}
+.row{
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.row::after{
+    content: "";
+    display: block;
+    clear:both;
+}
+.col{
+    float:left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.col-full{
+    width: 100%;
+}
+.col-five{
+    width: 20%;
+}
+.col-three{
+    width: 33.3333%;
+}
+.col-two{
+    width: 50%;
+}
+
+#main{
+    
+}
+
+
+/* content */
+
+#content .content-section{
+    width: 800px;
+    max-width: 100%;
+    margin: 64px auto;
+    
+}
+#content .section-heading{
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    text-align: center;
+}
+#content .section-sub-heading{
+    font-size: 15px;
+    font-style: italic;
+    color: red;
+    opacity: 0.6;
+    text-align: center;
+    margin-top: 25px;
+}
+#content .about-text{
+    margin-top: 25px;
+    font-size: 15px;
+    text-align: justify;
+    line-height: 1.4;
+    padding-left: 16px;
+    padding-right: 12px;
+}
+#content .phao-thu-tre{
+    margin: 32px 15px 0;
+    text-align: center;
+}
+#content .member-list{
+    margin-top: 48px;
+    /* overflow: hidden; */
+}
+
+#content .member-name{
+    font-size: 15px;
+    
+}
+#content .member-img{
+    margin-top: 15px;
+    width: 200px;
+    border-radius: 6px;
+}
+/* match section */
+.match-list-section{
+    width: 800px;
+    margin: auto;
+}
+.tickets-status-list{
+    background-color: white;
+    margin-top: 40px;
+    list-style: none;
+}
+.tickets-status-list li{
+    color: #757575;
+    font-size: 15px;
+    padding: 11px 16px;
+    border-bottom: 1px solid #ddd;
+}
+.match-list-section .sold-out{
+    background-color: red;
+    color: white;
+    padding: 3px 4px;
+    margin-left: 16px;
+
+}
+.match-list-section .quantity-status{
+    float: right;
+    width: 64px;
+    height: 22px;
+    background-color: #000;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 22px;
+    margin-top: -2px;
+}
+/* Lich cu the */
+.match-schedule{
+    /* margin-top: 4px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 32px -2px;
+
+    /* margin: 32px; */
+    /* padding: 48px 0; */
+    
+}
+
+.match-item{
+    margin: 0 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    height: 100%;
+    background-color: white;
+    flex:1;
+    flex-basis: 20%;
+    padding: 24px 2px;
+
+    /* width: 20%; */
+    /* padding: 0 2px; */
+        
+}
+.match-img{
+    width:100px;
+}
+.match-img:hover{
+    opacity: 0.8;
+}
+.match-content{
+    padding: 8px;
+    background-color: white;
+    font-size: 15px;
+}
+.match-content >h3{
+    min-height: 34px;
+}
+.match-heading{
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    
+    
+}
+.match-time{
+ margin-top: 15px; 
+ line-height: 1.4;
+ text-align: center;
+}
+
+
+

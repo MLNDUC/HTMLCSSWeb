@@ -1,0 +1,60 @@
+.contact-content{
+    margin-top: 48px;
+    padding: 16px;
+}
+.contact-info{
+    font-size: 18px;
+    line-height: 1.5;
+}
+.contact-info i[class*="ti-"] {
+    width: 30px;
+    display: inline-block;
+    
+}
+.contact-form{
+    font-size: 15px;
+}
+
+.contact-form .form-control{
+    padding:10px;
+    border: 1px solid #ccc;
+    width: 100%;
+    /* outline: none; */
+  
+}
+
+/*Map*/
+.map-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.map-section img{
+    width: 800px;
+}
+
+/* footer section */
+#footer{
+    padding: 64px 16px;
+    text-align: center;
+}
+#footer .social-network-list{
+    font-size: 24px;
+    
+}
+#footer .social-network-list a{
+    color: rgba(0, 0, 0, 0.4);
+    text-decoration: none;
+
+}
+#footer .social-network-list a:hover{
+    color: rgba(0, 0, 0, 0.8);
+
+}
+#footer .copyright{
+    margin-top: 15px;
+    color: rgba(0, 0, 0, 0.4);
+}
+#footer .copyright a{
+    color: rgba(40, 3, 248, 0.6);
+}
